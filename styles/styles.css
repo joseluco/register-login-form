@@ -151,3 +151,16 @@ form input:focus {
     font-weight: bold;
     color: #f0f8ff;
 }
+
+/*responsive */
+
+@media (max-width: 600px) {
+    .container{
+        flex-direction: column;
+        justify-content: center;
+    }
+    form {
+        width: 95%;
+        margin: 15px 8px
+    }
+}
