@@ -130,6 +130,11 @@ form input:focus {
     align-items: center;
 }
 
+input[type=checkbox]{
+    width: 15px;
+    height: 15px;
+}
+
 .remember span {
     margin: 0 5px;
 }
